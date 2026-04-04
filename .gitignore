@@ -1,5 +1,7 @@
-./frontend/node_modules
-./backend/node_modules
-./backend/.venv
+/frontend/node_modules
+/backend/node_modules
+/backend/.venv
+/backend/chroma_db/
+/backend/__pycache__/
 .env
 node_modules

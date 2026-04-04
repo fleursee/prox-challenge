@@ -7,7 +7,7 @@ Original repo is [here](https://github.com/prox-technologies/prox-challenge) for
 
 This challenge consists of Python as the backend and React + Vite as the frontend.
 
-In particular, the backend notably uses FastAPI, Uvicorn and PymuPDF (for PDF scanning), while also handling Anthropic queries. 
+In particular, the backend notably uses FastAPI, Uvicorn, Pydantic and PyMuPDF (for PDF scanning), while also handling Anthropic queries. 
 The frontend notably uses three.js (for the shell) and TailwindCSS, plus ShadCN.
 
 In my development, frontend uses npm (while I'm aware there are alternatives such as pnpm, bun, and yarn, npm is pretty classic and comes with NodeJS anyway.) and backend uses uv (instead of pip. This is more my particular fancy, however, and pip can be used just fine.)
