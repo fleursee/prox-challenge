@@ -1,0 +1,25 @@
+{
+  "name": "prox-challenge",
+  "version": "1.0.0",
+  "description": "<img src=\"product.webp\" alt=\"Vulcan OmniPro 220\" width=\"400\" /> <img src=\"product-inside.webp\" alt=\"Vulcan OmniPro 220 — inside panel\" width=\"400\" />",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"uvicorn app:app --reload\" \"vite --port 5173\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fleursee/prox-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/fleursee/prox-challenge/issues"
+  },
+  "homepage": "https://github.com/fleursee/prox-challenge#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

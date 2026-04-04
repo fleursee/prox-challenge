@@ -1,0 +1,8 @@
+anthropic
+fastapi
+uvicorn[standard]
+python-dotenv
+pymupdf
+chromadb
+sentence-transformers
+pillow
