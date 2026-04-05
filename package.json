@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "<img src=\"product.webp\" alt=\"Vulcan OmniPro 220\" width=\"400\" /> <img src=\"product-inside.webp\" alt=\"Vulcan OmniPro 220 — inside panel\" width=\"400\" />",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "concurrently \"uvicorn app:app --reload\" \"vite --port 5173\""
+    "dev": "concurrently --kill-others-on-fail -n backend,frontend -c \"#f97316,#fbbf24\" --shell cmd.exe \"cd backend && uv run uvicorn app:app --reload --port 8000\" \"cd frontend && npm run dev\""
   },
   "repository": {
     "type": "git",
